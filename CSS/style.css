@@ -351,7 +351,7 @@ h3, p{
     padding-bottom: 32px;
 }
 
-.marseille, .marseille1 img{
+.marseille img{
     width: 100%;
     object-fit: cover;
     height: 100%;
@@ -359,6 +359,8 @@ h3, p{
 }
 
 .marseille1 img{
+    width: 100%;
+    object-fit: cover;
     height: 98%;
     border-radius: 20px 20px 0px 0px;
 }
@@ -367,11 +369,22 @@ h3, p{
     padding-top: 3px;
 }
 
-.marseille, .marseille1 figcaption{
+.marseille figcaption{
     font: -webkit-control;
 }
 
-.marseille, .marseille1 figure img{
+.marseille1 figcaption{
+    font: -webkit-control;
+}
+
+.marseille figure img{
+    border-radius: 20px 20px 0px 0px;
+    width: 250px;
+    height: 156px;
+    object-fit: cover;
+}
+
+.marseille1 figure img{
     border-radius: 20px 20px 0px 0px;
     width: 250px;
     height: 156px;
