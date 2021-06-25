@@ -5,6 +5,10 @@
     padding: 0;
 }
 
+header, main{
+    margin-left: 20px;
+}
+
 /*******************CORPS DE PAGE************************/
 
 .navbar, .filtres, #fonction_filtres, .paragraphe, nav, header, ul{
@@ -20,6 +24,14 @@
     margin: auto;
 }
 
+h1{
+    font-size: x-large;
+}
+
+h2{
+    font-size: large;
+}
+
 /*******************TRAITEMENT DE LA NAV************************/
 
 nav{
@@ -33,8 +45,8 @@ header nav a{
 }
 
 header nav ul a:hover{
-    border-top: solid #0065FC 3px;
-    padding: 1rem;
+    border-top: solid #0065FC;
+    padding-bottom: 10px;
 }
 
 header figure{
@@ -408,23 +420,23 @@ footer{
 }
 
 .fin{
-    margin-left: 15px;
-}
-
-.fin, .fin1 h3{
-    padding-bottom: 15px;
-}
-
-.fin, .fin1 p{
-    padding-bottom: 10px;
+    padding-left: 15px;
 }
 
 .fin1{
     padding-left: 15%;
 }
 
+.fin h3{
+    padding-bottom: 15px;
+}
+
 .fin1 h3{
     padding-bottom: 15px;
+}
+
+.fin p{
+    padding-bottom: 10px;
 }
 
 .fin1 p{
@@ -447,8 +459,37 @@ footer{
         order: 2;
     }
 
+    header nav ul a{
+        padding: 1rem;
+        margin: 0;
+        margin-right: 230px;
+    }
+
+    header nav ul a:hover{
+        border-top: none;
+        border-bottom: solid #0065FC;
+        padding-bottom: 10px;
+    }
+
+    header figure{
+        margin-right: 0;
+    }
+
     .inscription{
         order: 1;
+        margin-left: 500px;
+    }
+
+    .hebergements2, .activites{
+    border-bottom: solid #F2F2F2;
+    padding-bottom: 10px;
+    border-top: transparent;
+    }
+
+    .hebergements2 a:hover{
+    border-bottom: solid #0065FC;
+    padding-bottom: 10px;
+    border-top: transparent;
     }
 
     .hebergement{
@@ -472,11 +513,11 @@ footer{
 
     #hebergements_marseille{
         margin-top: 30px;
-        margin-left: 30px;
+        margin-left: 0;
     }
 
     #populaires{
-        margin-left: 30px;
+        margin-left: 0;
     }
 
     .droite figure{
@@ -486,5 +527,22 @@ footer{
     #activites article{
         display: flex;
         flex-wrap: wrap;
+    }
+
+    .marseille, .marseille1{
+        width: 100%;
+    }
+
+    .marseille figure img{
+        width: 100%;
+    }
+
+    .marseille1 figure img{
+        width: 100%;
+    }
+
+    .fin1{
+        flex-wrap: wrap;
+        padding-left: 10%;
     }
 }
