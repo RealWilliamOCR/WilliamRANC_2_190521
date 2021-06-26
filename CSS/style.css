@@ -459,6 +459,22 @@ footer{
         order: 2;
     }
 
+    h1{
+        font-size: 2.8em;
+    }
+
+    main p{
+        font-size: 2em;
+    }
+
+    h2{
+        font-size: 2em;
+    }
+
+    h3{
+        font-size: 2em;
+    }
+
     header nav ul a{
         padding: 1rem;
         margin: 0;
@@ -478,6 +494,14 @@ footer{
     .inscription{
         order: 1;
         margin-left: 500px;
+    }
+
+    #fonction_filtres{
+        font-size: 1.5em;
+    }
+
+    .paragraphe p{
+        font-size: 1.5em;
     }
 
     .hebergements2, .activites{
@@ -516,6 +540,10 @@ footer{
         margin-left: 0;
     }
 
+    .etoiles, .etoiles2{
+        font-size: 1.7em;
+    }
+
     #populaires{
         margin-left: 0;
     }
@@ -541,8 +569,23 @@ footer{
         width: 100%;
     }
 
+    footer{
+        flex-direction: column;
+        padding: 1rem;
+        margin-left: 20px;
+    }
+
+    .fin h3, .fin1 h3{
+        font-size: 2em;
+    }
+
+    .fin p, .fin1 p{
+        font-size: 1.3em;
+    }
+
     .fin1{
-        flex-wrap: wrap;
-        padding-left: 10%;
+        flex-direction: column;
+        padding-left: 15px;
+        padding-top: 25px;
     }
 }
