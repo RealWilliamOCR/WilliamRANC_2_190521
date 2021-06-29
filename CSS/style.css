@@ -19,7 +19,6 @@ header, main{
 
 #container{
     width: 100%;
-    max-width: 1280px;
     min-width: 720px;
     margin: auto;
 }
@@ -109,7 +108,11 @@ header figure{
 .rechercher{
     display: inline-flex;
     background: #F2F2F2;
-    border:transparent;
+    border: transparent;
+}
+
+.btn .fa-search{
+    display: none;
 }
 
 .maps{
@@ -130,9 +133,9 @@ header figure{
 
 .btn{
     background: #0065FC;
-    text-align:center;
+    text-align: center;
     color: white;
-    border:transparent;
+    border: transparent;
     width:108px;
 }
 
@@ -446,6 +449,10 @@ footer{
 @media screen and (max-width: 768px)
 {
 
+    body{
+        font-size: 1.3em;
+    }
+
     nav{
         display: flex;
         flex-wrap: wrap;
@@ -461,10 +468,34 @@ footer{
 
     h1{
         font-size: 2.8em;
+        margin-top: 50px;
+    }
+
+    .arrondi{
+        width: 60%;
+        margin-top: 50px;
+    }
+
+    .btn{
+        width: 60px;
+    }
+
+    .btn strong{
+        display: none;
+    }
+
+    .rechercher .maps{
+        font-size: 1.5em;
+    }
+
+    .btn .fa-search{
+        display: block;
+        font-size: 1.5em;
     }
 
     main p{
-        font-size: 2em;
+        font-size: 2.5em;
+        margin-top: 50px;
     }
 
     h2{
@@ -472,13 +503,22 @@ footer{
     }
 
     h3{
-        font-size: 2em;
+        font-size: 2.5em;
     }
 
     header nav ul a{
         padding: 1rem;
         margin: 0;
         margin-right: 230px;
+    }
+
+    header nav ul{
+        border-bottom: solid #F2F2F2 5px;
+        font-size: 1.5em;
+    }
+
+    header nav ul li{
+        margin-left: -100px;
     }
 
     header nav ul a:hover{
@@ -489,23 +529,50 @@ footer{
 
     header figure{
         margin-right: 0;
+        height: 10%;
     }
 
     .inscription{
         order: 1;
-        margin-left: 500px;
+        margin-left: 60%;
+        font-size: 2em;
+    }
+
+    .cercle{
+        width: 70px;
+        height: 70px;
+    }
+
+    .contour{
+        font-size: 1.5em;
+        width: 100%;
     }
 
     #fonction_filtres{
         font-size: 1.5em;
     }
 
-    .paragraphe p{
+    #fonction_filtres li{
+        margin-top: 15px;
+    }
+
+    .marge{
+        font-size: 1.1em;
+        margin-top: 17px;
+    }
+
+    .information{
         font-size: 1.5em;
+        width: 55px;
+        height: 42px;
+    }
+
+    .paragraphe p{
+        font-size: 1.8em;
     }
 
     .hebergements2, .activites{
-    border-bottom: solid #F2F2F2;
+    font-size: 1.6em;
     padding-bottom: 10px;
     border-top: transparent;
     }
@@ -522,6 +589,7 @@ footer{
 
     .hebergements figure{
         width: 100%;
+        margin-bottom: 15%;
         height: auto;
     }
 
@@ -531,25 +599,54 @@ footer{
     }
 
     .hebergements figcaption{
-        width: 189%;
+        width: 779px;
         padding: 10px 15px 10px 30px;
+        font-size: 0.8em;
     }
 
     #hebergements_marseille{
         margin-top: 30px;
         margin-left: 0;
+        width: 122%;
     }
 
     .etoiles, .etoiles2{
         font-size: 1.7em;
+
     }
 
     #populaires{
         margin-left: 0;
+        width: 119%;
     }
 
     .droite figure{
         width: auto;
+        margin-top: 5%;
+    }
+
+    .droite .etoiles{
+        padding-top: 20px;
+    }
+
+    .droite .etoiles2{
+        padding-top: 0;
+    }
+
+    .droite figcaption{
+        font-size: 0.8em;
+    }
+
+    .afficher{
+        margin-bottom: 20px;
+    }
+
+    .alignement i{
+        font-size: 2em;
+    }
+
+    #activites h2{
+        font-size: 2em;
     }
 
     #activites article{
