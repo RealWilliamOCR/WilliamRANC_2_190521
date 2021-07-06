@@ -20,7 +20,8 @@ header, main{
 
 #container{
     width: 100%;
-    min-width: 720px;
+    max-width: 1280px;
+    min-width: 768px;
     margin: auto;
 }
 
@@ -228,7 +229,7 @@ h2{
     border-radius: 20px;
     width: 200px;
     height: 130px;
-    margin: 30px 15px 50px;
+    margin: 30px 15px 50px 10px;
     padding: 5px;
     overflow: hidden;
 }
@@ -259,6 +260,7 @@ h3, p{
 .afficher{
     margin-left: 25px;
     font-weight: bold;
+    font-size: 1.3em;
     padding-top: 30px;
 }
 
@@ -428,7 +430,7 @@ footer{
 }
 
 .fin1{
-    padding-left: 15%;
+    padding-left: 17%;
 }
 
 .fin h3{
@@ -449,11 +451,6 @@ footer{
 
 @media screen and (max-width: 768px)
 {
-
-    body{
-        font-size: 1.3em;
-    }
-
     nav{
         display: flex;
         flex-wrap: wrap;
@@ -468,12 +465,11 @@ footer{
     }
 
     h1{
-        font-size: 2.8em;
         margin-top: 50px;
     }
 
     .arrondi{
-        width: 60%;
+        width: 30%;
         margin-top: 50px;
     }
 
@@ -485,26 +481,8 @@ footer{
         display: none;
     }
 
-    .rechercher .maps{
-        font-size: 1.5em;
-    }
-
     .btn .fa-search{
         display: block;
-        font-size: 1.5em;
-    }
-
-    main p{
-        font-size: 2.5em;
-        margin-top: 50px;
-    }
-
-    h2{
-        font-size: 2em;
-    }
-
-    h3{
-        font-size: 2.5em;
     }
 
     header nav ul a{
@@ -513,13 +491,8 @@ footer{
         margin-right: 230px;
     }
 
-    header nav ul{
-        border-bottom: solid #F2F2F2 5px;
-        font-size: 1.5em;
-    }
-
     header nav ul li{
-        margin-left: -100px;
+        border-bottom: solid #F2F2F2 3px;
     }
 
     header nav ul a:hover{
@@ -536,44 +509,22 @@ footer{
     .inscription{
         order: 1;
         margin-left: 60%;
-        font-size: 2em;
-    }
-
-    .cercle{
-        width: 70px;
-        height: 70px;
     }
 
     .contour{
-        font-size: 1.5em;
         width: 100%;
-    }
-
-    #fonction_filtres{
-        font-size: 1.5em;
     }
 
     #fonction_filtres li{
         margin-top: 15px;
     }
 
-    .marge{
-        font-size: 1.1em;
-        margin-top: 17px;
-    }
-
     .information{
-        font-size: 1.5em;
-        width: 55px;
-        height: 42px;
-    }
-
-    .paragraphe p{
-        font-size: 1.8em;
+        width: 30px;
+        height: 20px;
     }
 
     .hebergements2, .activites{
-    font-size: 1.6em;
     padding-bottom: 10px;
     border-top: transparent;
     }
@@ -586,43 +537,37 @@ footer{
 
     .hebergement{
         flex-direction: column-reverse;
+        width: 100%;
     }
 
     .hebergements figure{
-        width: 100%;
+        width: 88%;
+        height: 100%;
         margin-bottom: 15%;
-        height: auto;
     }
 
     .hebergements figure img{
         width: 100%;
-        height: 230px;
     }
 
     .hebergements figcaption{
-        width: 779px;
-        padding: 10px 15px 10px 30px;
-        font-size: 0.8em;
+        padding: 10px 15px 10px 40px;
+        margin-top: -15px;
     }
 
     #hebergements_marseille{
         margin-top: 30px;
         margin-left: 0;
-        width: 122%;
-    }
-
-    .etoiles, .etoiles2{
-        font-size: 1.7em;
-
+        width: 95%;
     }
 
     #populaires{
         margin-left: 0;
-        width: 119%;
+        width: 92%;
     }
 
     .droite figure{
-        width: auto;
+        width: 90%;
         margin-top: 5%;
     }
 
@@ -634,20 +579,8 @@ footer{
         padding-top: 0;
     }
 
-    .droite figcaption{
-        font-size: 0.8em;
-    }
-
     .afficher{
         margin-bottom: 20px;
-    }
-
-    .alignement i{
-        font-size: 2em;
-    }
-
-    #activites h2{
-        font-size: 2em;
     }
 
     #activites article{
@@ -656,7 +589,8 @@ footer{
     }
 
     .marseille, .marseille1{
-        width: 100%;
+        width: 95%;
+        height: 10%;
     }
 
     .marseille figure img{
@@ -671,14 +605,6 @@ footer{
         flex-direction: column;
         padding: 1rem;
         margin-left: 20px;
-    }
-
-    .fin h3, .fin1 h3{
-        font-size: 2em;
-    }
-
-    .fin p, .fin1 p{
-        font-size: 1.3em;
     }
 
     .fin1{
