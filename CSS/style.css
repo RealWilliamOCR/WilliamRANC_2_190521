@@ -451,6 +451,7 @@ footer{
 
 @media screen and (max-width: 768px)
 {
+
     nav{
         display: flex;
         flex-wrap: wrap;
@@ -466,15 +467,28 @@ footer{
 
     h1{
         margin-top: 50px;
+        font-size: 2.3em;
+    }
+
+    p{
+        font-size: 2em;
     }
 
     .arrondi{
-        width: 30%;
+        width: 90%;
         margin-top: 50px;
     }
 
+    .arrondi .maps{
+        font-size: 2em;
+    }
+
+    .arrondi .fa-search{
+        font-size: 2em;
+    }
+
     .btn{
-        width: 60px;
+        width: 110px;
     }
 
     .btn strong{
@@ -509,14 +523,17 @@ footer{
     .inscription{
         order: 1;
         margin-left: 60%;
+        font-size: 2em;
     }
 
     .contour{
         width: 100%;
+        font-size: 3em;
     }
 
     #fonction_filtres li{
         margin-top: 15px;
+        font-size: 2em;
     }
 
     .information{
@@ -524,9 +541,18 @@ footer{
         height: 20px;
     }
 
+    h2{
+        font-size: 1.9em;
+    }
+
+    h3{
+        font-size: 2em;
+    }
+
     .hebergements2, .activites{
     padding-bottom: 10px;
     border-top: transparent;
+    font-size: 2em;
     }
 
     .hebergements2 a:hover{
