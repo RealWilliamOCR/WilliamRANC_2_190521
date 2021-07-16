@@ -554,7 +554,7 @@ footer{
     border-top: transparent;
     font-size: 2em;
     margin: auto;
-	margin-right: 70px;
+    margin-right: 80px;
     }
 
     .hebergements2 a:hover{
@@ -571,23 +571,18 @@ footer{
     .hebergements figure{
         width: 88%;
         height: 100%;
-        margin-bottom: 5%;
+        margin-bottom: 10%;
     }
 
     .hebergements figure img{
         width: 100%;
-		height: 185px;
     }
 
     .hebergements figcaption{
+        padding: 10px 15px 10px 40px;
         margin-top: -15px;
         display: contents;
     }
-	
-	.hebergements h3, .hebergements p, .etoiles, .etoiles2{
-		margin: 10px;
-		font-size: 2em;
-	}
 
     #hebergements_marseille{
         margin-top: 30px;
@@ -606,11 +601,23 @@ footer{
     }
 
     .droite .etoiles{
-        padding-top: 20px;
+        padding-top: 45px;
+        font-size: 1.7em;
     }
 
     .droite .etoiles2{
-        padding-top: 0;
+        padding-top: 20px;
+        font-size: 1.7em;
+    }
+
+    #hebergements_marseille .etoiles{
+        padding-top: 20px;
+        font-size: 1.7em;
+    }
+
+    #hebergements_marseille .etoiles2{
+        padding-top: 20px;
+        font-size: 1.7em;
     }
 
     .afficher{
@@ -619,27 +626,18 @@ footer{
     }
 
     #activites article{
+        display: flex;
         flex-wrap: wrap;
     }
-	
-	#activites article .marseille1 figcaption, #activites article .marseille .imagesmarseille1{
-		padding-top: 10px;
-		padding-bottom: 25px;
-		height: 200px;
-	}
-	
+
     .marseille, .marseille1{
         width: 95%;
-        height: 265px;
+        height: 10%;
     }
 
     .marseille figure img{
         width: 100%;
     }
-	
-	.marseille1 img{
-		height: 90%;
-		}
 
     .marseille1 figure img{
         width: 100%;
@@ -649,7 +647,6 @@ footer{
         flex-direction: column;
         padding: 1rem;
         margin-left: 20px;
-		margin-top: 230px;
     }
 
     .fin1{
