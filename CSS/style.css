@@ -617,6 +617,14 @@ footer{
     width: 100%;
 	}
 	
+	.marseille1 .VP{
+		margin-top: -10px;
+	}
+	
+	.marseille1 .PNC{
+		margin-top: -10px;
+	}
+	
 	.marseille2 {
 		margin-top:280px;
 	}
@@ -625,6 +633,7 @@ footer{
         flex-direction: column;
         padding: 1rem;
         margin-left: 20px;
+		margin-top: 320px;
     }
 
     .fin1{
