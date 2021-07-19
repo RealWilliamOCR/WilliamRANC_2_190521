@@ -614,7 +614,7 @@ footer{
 	}
 	
 	.marseille1 figure img, .marseille1 img{
-    width: 100%;
+    		width: 100%;
 	}
 	
 	.marseille1 .VP{
@@ -633,7 +633,7 @@ footer{
         flex-direction: column;
         padding: 1rem;
         margin-left: 20px;
-		margin-top: 320px;
+	margin-top: 320px;
     }
 
     .fin1{
