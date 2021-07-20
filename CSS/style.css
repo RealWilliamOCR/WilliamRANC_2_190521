@@ -95,6 +95,10 @@ header figure{
     color: #0065FC;
 }
 
+#fonction_filtres :hover{
+    background-color: #DEEBFF;
+}
+
 .filtres li{
     border: solid #F2F2F2 2px;
 }
@@ -428,7 +432,7 @@ footer{
     padding-bottom: 10px;
 }
 
-@media screen and (max-width: 768px)
+@media screen and (max-width: 1024px)
 {
 	#container {
 		min-width:660px;
