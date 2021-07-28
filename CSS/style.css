@@ -438,6 +438,11 @@ footer{
 		min-width:660px;
 	}
 
+    header, main{
+        margin-left: 20px;
+        margin-right: 0;
+    }
+
     nav{
         display: flex;
         flex-wrap: wrap;
@@ -453,11 +458,11 @@ footer{
 
     h1{
         margin-top: 50px;
-        font-size: 2.3em;
+        font-size: 2.1em;
     }
 
     p{
-        font-size: 2em;
+        font-size: 1.7em;
     }
 
     .arrondi{
@@ -540,7 +545,6 @@ footer{
     border-top: transparent;
     font-size: 2em;
     margin: auto;
-    margin-right: 80px;
     }
 
     .hebergements2 a:hover{
@@ -636,8 +640,8 @@ footer{
     footer{
         flex-direction: column;
         padding: 1rem;
-        margin-left: 20px;
-	margin-top: 320px;
+        margin-left: 0;
+	    margin-top: 320px;
     }
 
     .fin1{
