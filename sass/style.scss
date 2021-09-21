@@ -1,0 +1,223 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto";
+  }
+@media screen and (max-width: 768px) {
+
+    .container figure{
+        text-align: center;
+        margin-top: 15px;
+    }
+
+    .introduction{
+        display: flex;
+        justify-content: center;
+        border-top: solid gray 3px;
+        margin-top: 15px;
+        padding-top: 10px;
+        background: lightgray;
+        height: 30px;
+
+        p{
+            padding-left: 10px;
+        }
+    } 
+    
+    .entete{
+        display: flow-root;
+        text-align: center;
+        background: whitesmoke;
+        height: 260px;
+
+        h1{
+            font-size: 1.5em;
+            margin-left: 25px;
+            margin-right: 25px;
+            margin-top: 25px;
+            font-weight: bold;
+            font-family: system-ui;
+        }
+
+        p{
+            margin-top: 10px;
+        }
+
+        button{
+            margin-top: 5%;
+            border-radius: 50px;
+            border: none;
+            background: linear-gradient(1turn, #9356DC, #FF79DA);
+            color: white;
+            font-weight: bold;
+            font-size: 1em;
+            box-shadow: 1px 0px 5px 0px grey;
+            width: 60%;
+            height: 15%;
+                }
+    
+    .fonctionnement{
+        height: 400px;
+
+        h2{
+            padding-left: 10px;
+            font-family: system-ui;
+            padding-top: 40px;
+        }
+
+        .description{
+            display: flex;
+            margin-top: 35px;
+            width: 90%;
+            border-radius: 15px;
+            height: 35px;
+            padding-top: 15px;
+            margin-left: 20px;
+            box-shadow: lightgrey 1px 8px 4px -5px;
+            background: #F5F5F5;
+        }
+
+        .chiffres{
+            margin-left: -10px;
+            color: white;
+            background: #9356DC;
+            border-radius: 50px;
+            height: 20px;
+            width: 20px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 0.8em;
+            font-family: system-ui;
+          }
+
+        i{
+            margin-left: 20px;
+            color: dimgray;
+        }
+
+        .violet{
+            color: #9356DC;
+        }
+
+        p{
+        margin-left: 20px;
+        font-weight: bold;
+        font-family: system-ui;
+        align-content: center;
+        justify-content: center;
+        display: flex;
+        }
+
+    .cartes{
+        h2{
+            padding-left: 10px;
+            font-family: system-ui;
+        }
+
+        .explications{
+            display: flex;
+            justify-content: space-between;
+            margin-right: 10%;
+        }
+
+    .restaurants{
+        figure{
+            width: 92%;
+            height: 230px;
+            margin-left: 10px;
+            border-radius: 15px;
+            box-shadow: lightgrey 0 3px 10px 3px;
+            margin-top: 20px;
+            }
+
+            img{
+                width: 100%;
+                border-radius: 15px 15px 0 0;
+                object-fit: cover;
+                height: 172px;
+            }
+
+
+    .nouveautes{
+        background-color: #99E2D0;
+        width: 90px;
+        border-radius: 3px;
+        margin-top: 30px;
+        font-family: system-ui;
+        color: rgb(0, 135, 102);
+        font-weight: bold;
+        padding: 3px;
+        position: absolute;
+        right: 10%;
+        justify-content: center;
+        }
+    
+    .carteresto{
+        text-align: center;
+        margin-left: 10px;
+    }
+        h3{
+            margin-top: 5px;
+            font-family: system-ui;
+            font-size: 1em;
+        }
+    
+    }
+
+    .animation{
+        display: flex;
+        align-self: center;
+        margin-left: 80px;
+    }
+        .droite{
+            align-self: center;
+            margin-left: 40px;
+        }
+
+        .plein{
+            display: none;
+        }
+    
+        footer{
+            margin-top: 50px;
+            height: 200px;
+            display: grid;
+            background: #464646;
+        }
+            h3{
+            font-family: shrikhand;
+            color: white;
+            margin-top: 20px;
+            margin-left: 10px;
+            font-weight: 100;   
+            }
+
+            p{
+                margin-left: 10px;
+                color: white;
+                font-family: system-ui;
+                margin-top: -5px;
+            }
+
+            .logotexte{
+                display: flex;
+            }
+                i{
+                    color: white;
+                    margin-right: 10px;
+                    margin-left: 10px;
+                }
+
+                .hand{
+                    margin-right: 4px;
+                }
+
+                p{
+                    color: white;
+                    font-family: system-ui;
+                }
+    }
+    }        
+}
+}
