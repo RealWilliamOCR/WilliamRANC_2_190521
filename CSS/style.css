@@ -1,10 +1,12 @@
 *{
     font-family: 'Raleway';
-    margin: auto;
+    margin: 0;
+	padding: 0;
 }
 
 #container{
     max-width: 1280px;
+	margin: auto;
 }
 
 header{
@@ -14,16 +16,19 @@ header{
 }
 
 header figure{
-    margin-left: 10px;
+	width: 350px;
+	margin-left: 10px;
+	max-width: 400px;
 }
 
 nav{
     display: flex;
-    max-width: 110px;
+	width: 500px;
 }
 
 a{
     text-decoration: none;
+	order: 1;
 }
 
 ul{
@@ -32,8 +37,7 @@ ul{
 }
 
 li{
-	width: 120px;
-    max-width: 300px;
+	margin-right: 20px;
 }
 
 .hebergements2, .inscription{
