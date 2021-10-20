@@ -1,5 +1,6 @@
+    @import url("https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700;800;900&display=swap");
 *{
-    font-family: Raleway;
+    font-family: 'Raleway', sans-serif;
     margin: 0;
 	padding: 0;
 }
@@ -13,6 +14,10 @@ header{
     display: flex;
 	flex-wrap: wrap;
     margin-top: 25px;
+}
+
+.desc{
+    margin-left: 10px;
 }
 
 .logo{
@@ -62,9 +67,13 @@ h1{
 	margin-left: 10px;
 }
 
-p{
+header p{
 	padding-top: 15px;
 	margin-left: 10px;
+}
+
+p{
+    margin: 0;
 }
 
 .filtres{
@@ -108,23 +117,19 @@ h2{
 
 .arrondi{
     border: solid #F2F2F2 1px;
-    width: 285px;
-    border-radius: 15px;
+    width: 30px;
+    border-radius: 15px 0 0 15px;
     overflow: hidden;
-    margin-top: 15px;
+    margin-top: 7px;
 }
 
-.rechercher{
-    display: inline-flex;
-	margin-left: 10px;
-    background: #F2F2F2;
-    border: transparent;
-	width: 375px;
-	height: 43px;
+form{
+    display: flex;
+    margin-top: 10px;
 }
 
-.btn .fa-search{
-    display: none;
+.fa-search{
+    opacity: 0;
 }
 
 .maps{
@@ -135,8 +140,12 @@ h2{
 }
 
 .contour{
-    border:transparent;
-	width: 260px;
+    border: transparent;
+    width: 260px;
+    padding-left: 15px;
+    height: 35px;
+    align-self: center;
+    margin-top: 10px;
 }
 
 ::placeholder{
@@ -151,7 +160,11 @@ h2{
     text-align: center;
     color: white;
     border: transparent;
-    width: 95px;
+    height: 35px;
+    align-items: center;
+    border-radius: 0 15px 15px 0;
+    margin-top: 10px;
+    padding-left: 15px;
 }
 
 .marge{
@@ -198,24 +211,253 @@ h2{
     border: solid #F2F2F2 1px;
     border-radius: 50%;
     text-align: center;
+    margin-left: 10px;
 }
 
 .blanc{
     color: #0065FC;
     text-align: center;
 }
+/*BLOC GAUCHE*/
+
+.hebergement{
+    display: flex;
+}
+
+.hebergements{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: -20px;
+    max-width: 850px;
+}
+
+#hebergements_marseille{
+    background: #F2F2F2;
+    border-radius: 30px;
+    padding-left: 25px;
+    display: flex;
+    flex-direction: column;
+    width: 850px;
+    max-width: 925px;
+    margin-bottom: 20px;
+}
+
+#hebergements_marseille h2{
+    margin-left: 10px;
+    margin-top: 30px;
+}
+
+h2{
+    margin: 10px;
+}
+
+.hebergements figure{
+    box-shadow: 0 0 20px #0000002e;
+    background: white;
+    border-radius: 20px;
+    width: 225px;
+    height: 155px;
+    margin: 30px 30px 20px 0;
+    padding: 5px;
+    padding-bottom: 30px;
+    overflow: hidden;
+}
+
+.hebergements figure img{
+    justify-content: space-around;
+    border-radius: 20px 20px 0px 0px;
+    width: 225px;
+    height: 130px;
+    object-fit: cover;
+}
+
+.hebergements figcaption{
+    margin-top: -30px;
+    position: absolute;
+    border-radius: 0 0 20px 20px;
+    width: 215px;
+    background: white;
+    padding: 10px;
+    margin-left: -5px;
+}
+
+figcaption p{
+    margin: 4px 0 5px 0px;
+}
+
+h3, p{
+    color: rgb(40, 40, 40);
+}
+
+.afficher{
+    margin-left: 10px;
+    font-weight: bold;
+    font-size: 1.5em;
+    padding-top: 30px;
+}
+
+.grise{
+    color: #F2F2F2;
+}
+
+.etoiles{
+    color: #0065FC
+}
+
+/*BLOC DROIT*/
+
+.etoiles, .etoiles2{
+    color: #0065FC;
+}
+
+.alignement{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.alignement h2{
+    margin-left: 25px;
+}
+
+.alignement i{
+    margin-right: 23px;
+    font-size: large;
+}
+
+#populaires{
+    background: #F2F2F2;
+    border-radius: 30px;
+    margin-left: 30px;
+    padding-top: 15px;
+    padding-left: 5px;
+    margin-right: 0px;
+    margin-bottom: 20px;
+}
+
+.droite h3{
+    margin: 0;
+    padding: 0;
+}
+
+.droite figure{
+    box-shadow: 0 0 20px #0000002e;
+    background: white;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: row-reverse;
+    width: 370px;
+    margin: 18px 25px 33px;
+    height: 152px;
+}
+
+.droite figure img{
+    justify-content: space-around;
+    border-radius: 20px 0px 0px 20px;
+    width: 155px;
+    height: 140px;
+    object-fit: cover;
+    padding: 5px 0px 5px 5px;
+}
+
+.droite figcaption{
+    margin: 10px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.droite .etoiles{
+    padding-top: 30px;
+}
+
+.droite .etoiles2{
+    padding-top: 30px;
+}
+
+/*ACTIVITES*/
+
+#activites{
+    border-radius: 30px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-bottom: 50px;
+}
+
+#activites article{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 100%;
+    margin-top: 20px;
+    margin-left: -15px;
+}
+
+#activites h2{
+    margin-top: 50px;
+    inline-size: -webkit-fill-available;
+}
+
+#activites h3{
+    margin-left: 10px;
+    padding-top: 10px;
+}
+
+#activites figcaption{
+    height: 42px
+}
+
+.marseille1{
+    border-radius: 20px;
+    width: 285px;
+    height: 390px;
+    margin: 0 0 20px 20px;
+}
+
+article figure{
+    box-shadow: 0 0 20px #0000002e;
+    padding-bottom: 32px;
+}
+
+.marseille1 h3{
+    padding-top: 3px;
+}
+
+.marseille1 figure img, .marseille1 img{
+    border-radius: 20px 20px 0px 0px;
+    width: 285px;
+    height: 150px;
+    object-fit: cover;
+}
+.marseille1 img{
+    height: 95%;
+    width: 285px;
+}
+.imagesmarseille1 {
+    margin-bottom: 21px;
+    box-shadow: 0 0 20px #0000002e;
+    border-radius: 20px;
+    padding-bottom: 5px;
+}
+
 /*FOOTER*/
 
 footer{
     display: flex;
 	flex-wrap: wrap;
     background: #F2F2F2;
+    margin-top: -10px;
+}
+
+footer p{
+    margin: 23px 0px -10px 0px;
 }
 
 .fin, .fin1{
-	width: 200px;
-	max-width: 300px;
-    margin: 20px;
+    width: 265px;
+    max-width: 350px;
+    margin: 50px;
 }
 
 .fin h3, .fin1 h3{

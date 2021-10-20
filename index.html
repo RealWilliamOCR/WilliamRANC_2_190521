@@ -7,7 +7,9 @@
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
         <link rel="preconnect" href="https://fonts.googleapis.com">
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-		<link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
         <title>Booki</title>
     </head>
@@ -36,10 +38,10 @@
 
     <main>
         <h1>Trouvez votre hébergement pour des vacances de rêve</h1>
-            <p>En plein centre ville ou en pleine nature</p>
+            <p class="desc">En plein centre ville ou en pleine nature</p>
  
-        <form action="recherche" class="rechercher arrondi">
-            <i class="fas fa-map-marker-alt maps"></i>
+        <form action="recherche">
+            <div class="arrondi"><i class="fas fa-map-marker-alt maps"></i></div>
             <input type="text" class="contour" placeholder="Marseille, France">
             <button type="submit" class="btn"><strong>Rechercher</strong>
                 <i class="fas fa-search"></i></button>
@@ -79,7 +81,7 @@
         
 
         <!--PARTIE DE GAUCHE SECTION HÉBERGEMENTS-->
-         <!-- <section class="hebergement">
+         <section class="hebergement">
             <article id="hebergements_marseille">
 
                 <h2>Hébergements à Marseille</h2>
@@ -188,10 +190,10 @@
                             </figure>
                 </div>
                 <p class="afficher">Afficher plus</p>
-            </article> -->
+            </article>
 
             <!--PARTIE DE DROITE SECTION LES PLUS POPULAIRES-->
-            <!-- <aside id="populaires">
+            <aside id="populaires">
                 <div class="alignement">
                     <h2>Les plus populaires</h2>
                     <i class="fas fa-chart-line"></i>
@@ -250,10 +252,10 @@
                             </figure>
                     </div>
             </aside>
-        </section> -->
+        </section>
 
         <!--SECTION ACTIVITÉS-->
-        <!-- <section id="activites">
+        <section id="activites">
             <h2>Activités à Marseille</h2>
             <article>
                <figure class="marseille1">
@@ -312,7 +314,7 @@
                                 <h3>Parc Longchamp</h3>
                             </figcaption>
                         </figure>
-                    </div> -->
+                    </div>
             </article>
           </section>
     </main>
