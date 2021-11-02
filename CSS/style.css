@@ -6,13 +6,12 @@
 }
 
 #container{
-    max-width: 1280px;
+    max-width: 992px;
 	margin: auto;
 }
 
 header{
     display: flex;
-	flex-wrap: wrap;
     margin-top: 25px;
 }
 
@@ -25,7 +24,7 @@ header{
 }
 
 header figure{
-	width: 1035px;
+	width: 815px;
 	margin-left: 10px;
 }
 
@@ -222,14 +221,15 @@ form{
 
 .hebergement{
     display: flex;
+	justify-content: space-evenly;
 }
 
 .hebergements{
     display: flex;
-    justify-content: space-around;
     flex-wrap: wrap;
     margin-top: -20px;
-    max-width: 850px;
+    max-width: 992px;
+    width: 690px;
 }
 
 #hebergements_marseille{
@@ -238,7 +238,7 @@ form{
     padding-left: 25px;
     display: flex;
     flex-direction: column;
-    width: 850px;
+    width: 585px;
     max-width: 925px;
     margin-bottom: 20px;
 }
@@ -258,6 +258,14 @@ h2{
     border-radius: 20px;
     width: 225px;
     height: 155px;
+    margin: 30px 15px 15px 0;
+    padding: 5px;
+    padding-bottom: 30px;
+    overflow: hidden;    box-shadow: 0 0 20px #0000002e;
+    background: white;
+    border-radius: 20px;
+    width: 170px;
+    height: 155px;
     margin: 30px 30px 20px 0;
     padding: 5px;
     padding-bottom: 30px;
@@ -267,7 +275,7 @@ h2{
 .hebergements figure img{
     justify-content: space-around;
     border-radius: 20px 20px 0px 0px;
-    width: 225px;
+    width: 170px;
     height: 130px;
     object-fit: cover;
 }
@@ -276,7 +284,7 @@ h2{
     margin-top: -30px;
     position: absolute;
     border-radius: 0 0 20px 20px;
-    width: 215px;
+    width: 160px;
     background: white;
     padding: 10px;
     margin-left: -5px;
@@ -284,10 +292,12 @@ h2{
 
 figcaption p{
     margin: 4px 0 5px 0px;
+	font-size: 14px;
 }
 
 h3, p{
     color: rgb(40, 40, 40);
+	font-size: 14px;
 }
 
 .afficher{
@@ -330,8 +340,8 @@ h3, p{
     background: #F2F2F2;
     border-radius: 30px;
     margin-left: 30px;
-    padding-top: 15px;
-    padding-left: 5px;
+    padding-top: 10px;
+    padding-left: 15px;
     margin-right: 0px;
     margin-bottom: 20px;
 }
@@ -347,16 +357,16 @@ h3, p{
     border-radius: 20px;
     display: flex;
     flex-direction: row-reverse;
-    width: 370px;
+    width: 325px;
     margin: 18px 25px 33px;
-    height: 152px;
+    height: 125px;
 }
 
 .droite figure img{
     justify-content: space-around;
     border-radius: 20px 0px 0px 20px;
     width: 155px;
-    height: 140px;
+    height: 115px;
     object-fit: cover;
     padding: 5px 0px 5px 5px;
 }
@@ -405,12 +415,13 @@ h3, p{
 }
 
 #activites figcaption{
-    height: 42px
+    height: 42px;
+	width: 225px;
 }
 
 .marseille1{
     border-radius: 20px;
-    width: 285px;
+    width: 225px;
     height: 390px;
     margin: 0 0 20px 20px;
 }
@@ -426,26 +437,26 @@ article figure{
 
 .marseille1 figure img, .marseille1 img{
     border-radius: 20px 20px 0px 0px;
-    width: 285px;
+    width: 225px;
     height: 150px;
     object-fit: cover;
 }
 .marseille1 img{
     height: 95%;
-    width: 285px;
+    width: 225px;
 }
 .imagesmarseille1 {
     margin-bottom: 21px;
     box-shadow: 0 0 20px #0000002e;
     border-radius: 20px;
     padding-bottom: 5px;
+	width: 225px;
 }
 
 /*FOOTER*/
 
 footer{
     display: flex;
-	flex-wrap: wrap;
     background: #F2F2F2;
     margin-top: -10px;
 }
@@ -462,4 +473,14 @@ footer p{
 
 .fin h3, .fin1 h3{
     margin-bottom: 10px;
+}
+
+@media screen and (max-width: 374px) and (min-width: 320px)
+{
+	
+}
+
+@media screen and (max-width: 413px) and (min-width: 375px)
+{
+	
 }
