@@ -111,11 +111,11 @@ h2{
 }
 
 .filtres li{
-    border: solid #F2F2F2 2px;
+    border: solid lightgrey 2px;
 }
 
 .arrondi{
-    border: solid #F2F2F2 1px;
+    border: solid #F7F7F7 1px;
     width: 30px;
     border-radius: 15px 0 0 15px;
     overflow: hidden;
@@ -241,6 +241,7 @@ form{
     width: 615px;
     max-width: 925px;
     margin-bottom: 20px;
+	height: 565px;
 }
 
 #hebergements_marseille h2{
@@ -304,11 +305,10 @@ h3, p{
     margin-left: 10px;
     font-weight: bold;
     font-size: 1.5em;
-    padding-top: 30px;
 }
 
 .grise{
-    color: #F2F2F2;
+    color: lightgrey;
 }
 
 .etoiles{
@@ -477,8 +477,144 @@ footer p{
 
 @media screen and (max-width: 374px) and (min-width: 320px)
 {
+	header{
+		flex-direction: column;
+	}
 	
+	header ul{
+		margin-bottom: 10px;
+		justify-content: space-evenly;
+		border-bottom: solid lightgrey 2px;
+	}
+	
+	header li{
+		margin-right: 0;
+	}
+	
+	header figure{
+		width: 0;
+		margin-left: 125px;
+	}
+	
+	li:hover{
+		border-top: none;
+		border-bottom: solid #0065FC;
+	}
+	
+	h1{
+		font-size: 22px;
+		margin-top: 10px;
+		margin-bottom: 10px;
+	}
+	
+	#fonction_filtres{
+		padding-left:0;
+	}
+	
+	#fonction_filtres li{
+		max-width: 205px;
+		padding-right: 7px;
+		margin: 9px 6px 0 15px;
+	}
+	
+	.filtres{
+		flex-wrap: wrap;
+	}
+	
+	.marge{
+		margin-left: 10px;
+	}
+	
+	strong{
+		display: none;
+	}
+	
+	.arrondi{
+		margin-left: 10px;
+	}
+
+	.contour{
+		width: 200px;
+	}
+	
+	.btn{
+		padding-left: 10px;
+		border-radius: 10px;
+	}
+	
+	.fa-search{
+		opacity: 1;
+		padding: 10px 15px 10px 0;
+	}
+	
+	h2{
+		margin-left: 10px;
+		font-size: 18px;
+	}
+	
+	.hebergement{
+		flex-direction: column-reverse;
+		max-width: 320px;
+	}
+	
+	.hebergements{
+		max-width: 285px;
+	}
+	
+	#hebergements_marseille{
+	background: white;
+    max-width: 275px;
+    margin-left: 8px;
+    height: 1575px;
+	}
+	
+	.hebergements figure{
+		margin: 30px 30px 20px 5px;
+		width: 230px;
+	}
+	
+	.hebergements figure img{
+		width: 230px;
+		height: 135px;
+	}
+	
+	.hebergements figcaption{
+		margin-top: -30px;
+		width: 220px;
+	}
+	
+	#populaires{
+		margin-right: 10px;
+	}
+	
+	.droite figure{
+		width: 250px;
+		margin: 18px 10px 33px;
+		height: 102px;
+	}
+	
+	.droite figure img{
+		width: 88px;
+		height: 93px;
+	}
+	
+	.droite .etoiles, .droite .etoiles2{
+		padding-top: 10px;
+	}
+	
+	#activites article{
+		margin-left: 25px;
+	}
+	
+	footer{
+		flex-wrap: wrap;
+	}
+	
+	.fin, .fin1{
+		margin: 30px;
+	}
 }
+
 
 @media screen and (max-width: 413px) and (min-width: 375px)
 {
