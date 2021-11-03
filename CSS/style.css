@@ -475,50 +475,28 @@ footer p{
     margin-bottom: 10px;
 }
 
-@media screen and (max-width: 374px) and (min-width: 320px)
+@media screen and (max-width: 767px) and (min-width: 320px)
 {
+	h1{
+		font-size: 22px;
+		max-width: 360px;
+	}
+	
 	header{
 		flex-direction: column;
 	}
 	
-	header ul{
-		margin-bottom: 10px;
-		justify-content: space-evenly;
-		border-bottom: solid lightgrey 2px;
-	}
-	
-	header li{
-		margin-right: 0;
-	}
-	
 	header figure{
-		width: 0;
-		margin-left: 125px;
+		width: auto;
+		align-self: center;
 	}
 	
-	li:hover{
-		border-top: none;
-		border-bottom: solid #0065FC;
+	header ul{
+		margin-bottom: 15px;
 	}
 	
-	h1{
-		font-size: 22px;
-		margin-top: 10px;
-		margin-bottom: 10px;
-	}
-	
-	#fonction_filtres{
-		padding-left:0;
-	}
-	
-	#fonction_filtres li{
-		max-width: 205px;
-		padding-right: 7px;
-		margin: 9px 6px 0 15px;
-	}
-	
-	.filtres{
-		flex-wrap: wrap;
+	nav{
+		align-self: center;
 	}
 	
 	.marge{
@@ -542,81 +520,65 @@ footer p{
 		border-radius: 10px;
 	}
 	
+	.paragraphe{
+		max-width: 410px;
+	}
+	
 	.fa-search{
 		opacity: 1;
 		padding: 10px 15px 10px 0;
 	}
 	
-	h2{
-		margin-left: 10px;
-		font-size: 18px;
+	#fonction_filtres{
+		padding-left: 0;
+	}
+	
+	#fonction_filtres li{
+		margin: 10px 10px -5px 0;
+	}
+	
+	.marge{
+		margin-left: 0;
+		width: 145px;
+	}
+	
+	#populaires{
+		width: 115%;
+		max-width: 370px;
 	}
 	
 	.hebergement{
 		flex-direction: column-reverse;
-		max-width: 320px;
 	}
 	
 	.hebergements{
-		max-width: 285px;
-	}
-	
-	#hebergements_marseille{
-	background: white;
-    max-width: 275px;
-    margin-left: 8px;
-    height: 1575px;
+		width: 115%;
+		max-width: 370px;
 	}
 	
 	.hebergements figure{
-		margin: 30px 30px 20px 5px;
-		width: 230px;
+		width: 100%;
+		max-width: 350px;
 	}
 	
 	.hebergements figure img{
-		width: 230px;
-		height: 135px;
+		width: 100%;
+		max-width: 350px;
 	}
 	
-	.hebergements figcaption{
-		margin-top: -30px;
-		width: 220px;
+	.hebergements figure figcaption{
+		width: 100%;
+		max-width: 318px;
 	}
 	
-	#populaires{
-		margin-right: 10px;
-	}
-	
-	.droite figure{
-		width: 250px;
-		margin: 18px 10px 33px;
-		height: 102px;
-	}
-	
-	.droite figure img{
-		width: 88px;
-		height: 93px;
-	}
-	
-	.droite .etoiles, .droite .etoiles2{
-		padding-top: 10px;
-	}
-	
-	#activites article{
-		margin-left: 25px;
-	}
-	
-	footer{
-		flex-wrap: wrap;
-	}
-	
-	.fin, .fin1{
-		margin: 30px;
+	#hebergements_marseille{
+		width: 115%;
+		height: auto;
+		max-width: 370px;
+		margin-left: 10px;
 	}
 }
-
-
-@media screen and (max-width: 413px) and (min-width: 375px)
+@media screen and (max-width: 991px) and (min-width: 768px)
 {
 	
 }
