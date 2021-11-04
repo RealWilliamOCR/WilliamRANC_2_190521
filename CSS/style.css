@@ -419,33 +419,43 @@ h3, p{
 	width: 225px;
 }
 
-.marseille1{
+.grandeimage{
     border-radius: 20px;
     width: 225px;
     height: 390px;
     margin: 0 0 20px 20px;
+	object-fit: cover;
 }
 
 article figure{
     box-shadow: 0 0 20px #0000002e;
     padding-bottom: 32px;
+	object-fit: cover;
 }
 
 .marseille1 h3{
     padding-top: 3px;
 }
 
-.marseille1 figure img, .marseille1 img{
+.grandeimage img, .deuximages img{
     border-radius: 20px 20px 0px 0px;
     width: 225px;
     height: 150px;
     object-fit: cover;
 }
-.marseille1 img{
+.grandeimage img{
     height: 95%;
     width: 225px;
 }
-.imagesmarseille1 {
+.image1 {
+    margin-bottom: 21px;
+    box-shadow: 0 0 20px #0000002e;
+    border-radius: 20px;
+    padding-bottom: 5px;
+	width: 225px;
+}
+
+.image2 {
     margin-bottom: 21px;
     box-shadow: 0 0 20px #0000002e;
     border-radius: 20px;
@@ -486,6 +496,11 @@ footer p{
 	
 	header{
 		flex-direction: column;
+		margin-left: 25%;
+	}
+	
+	header nav{
+		align-self: center;
 	}
 	
 	header figure{
@@ -592,28 +607,28 @@ footer p{
 		margin-left: 40px;
 	}
 	
-	.marseille1{
-		height: auto;
-		width: 115%;
-		max-width: 350px;
-	}
-	
-	.marseille1 img{
-		height: auto;
-		width: 300px;
-		max-width: 450px;
-	}
-	
-	#activites figcaption{
-		height: auto;
-	}
-	
-	.imagesmarseille1{
+	.grandeimage{
 		width: 100%;
 		max-width: 350px;
+		margin-left: 65px;
+		height: 13%;
 	}
 	
-	.marseille1 figure img{
+	.grandeimage img{
+		width: 100%;
+	}
+	
+	.grandimage figure{
+		height: 13%;
+	}
+	
+	.image1, .image2{
+		width: 77%;
+		max-width: 350px;
+		margin-left: 65px;
+	}
+	
+	.image2 img{
 		width: 100%;
 	}
 	
