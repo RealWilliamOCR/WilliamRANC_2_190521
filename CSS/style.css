@@ -421,10 +421,8 @@ h3, p{
 
 .grandeimage{
     border-radius: 20px;
-    width: 225px;
-    height: 390px;
-    margin: 0 0 20px 20px;
 	object-fit: cover;
+	height: 88%;
 }
 
 article figure{
@@ -452,7 +450,6 @@ article figure{
     box-shadow: 0 0 20px #0000002e;
     border-radius: 20px;
     padding-bottom: 5px;
-	width: 225px;
 }
 
 .image2 {
@@ -496,11 +493,11 @@ footer p{
 	
 	header{
 		flex-direction: column;
-		margin-left: 25%;
 	}
 	
 	header nav{
-		align-self: center;
+		border-bottom: solid gray 1px;
+		width: 113%;
 	}
 	
 	header figure{
@@ -510,6 +507,12 @@ footer p{
 	
 	header ul{
 		margin-bottom: 15px;
+		justify-content: space-evenly;
+	}
+	
+	li:hover{
+	border-top: solid white 0px;
+	border-bottom: solid #0065FC 2px;
 	}
 	
 	nav{
@@ -563,22 +566,29 @@ footer p{
 	}
 	
 	#populaires{
-		width: 115%;
-		max-width: 370px;
+		width: 110%;
+		max-width: 398px;
+		margin-left: 5px;
 	}
 	
 	.hebergement{
 		flex-direction: column-reverse;
+		width: 90%;
 	}
 	
 	.hebergements{
-		width: 115%;
-		max-width: 370px;
+		width: auto;
+		max-width: 340px;
 	}
 	
 	.hebergements figure{
-		width: 100%;
+		width: 88%;
 		max-width: 350px;
+	}
+	
+	.droite figure {
+		width: 317px;
+		margin: 18px -7px 33px;
 	}
 	
 	.hebergements figure img{
@@ -588,15 +598,19 @@ footer p{
 	
 	.hebergements figure figcaption{
 		width: 100%;
-		max-width: 318px;
+		max-width: 285px;
 	}
 	
 	#hebergements_marseille{
 		background: white;
-		width: 115%;
+		width: 100%;
 		height: auto;
 		max-width: 370px;
 		margin-left: 10px;
+	}
+	
+	#hebergements_marseille h2{
+		margin-left: -10px;
 	}
 	
 	#activites article{
@@ -608,24 +622,26 @@ footer p{
 	}
 	
 	.grandeimage{
-		width: 100%;
 		max-width: 350px;
-		margin-left: 65px;
 		height: 13%;
 	}
+	
+	.deuximages img{
+		width: 295px;
+	}
+		
 	
 	.grandeimage img{
 		width: 100%;
 	}
 	
-	.grandimage figure{
+	.grandeimage figure{
 		height: 13%;
 	}
 	
 	.image1, .image2{
-		width: 77%;
+		width: 100%;
 		max-width: 350px;
-		margin-left: 65px;
 	}
 	
 	.image2 img{
