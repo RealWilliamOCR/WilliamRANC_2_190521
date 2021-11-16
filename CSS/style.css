@@ -257,14 +257,6 @@ h2{
     box-shadow: 0 0 20px #0000002e;
     background: white;
     border-radius: 20px;
-    width: 225px;
-    height: 155px;
-    margin: 30px 15px 15px 0;
-    padding: 5px;
-    padding-bottom: 30px;
-    overflow: hidden;    box-shadow: 0 0 20px #0000002e;
-    background: white;
-    border-radius: 20px;
     width: 170px;
     height: 155px;
     margin: 30px 30px 20px 0;
@@ -346,6 +338,12 @@ h3, p{
     margin-bottom: 20px;
 }
 
+.droite{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
 .droite h3{
     margin: 0;
     padding: 0;
@@ -356,9 +354,8 @@ h3, p{
     background: white;
     border-radius: 20px;
     display: flex;
-    flex-direction: row-reverse;
     width: 325px;
-    margin: 18px 25px 33px;
+    margin-bottom: 33px;
     height: 125px;
 }
 
@@ -482,7 +479,7 @@ footer p{
     margin-bottom: 10px;
 }
 
-@media screen and (max-width: 767px) and (min-width: 320px)
+@media screen and (max-width: 767px)
 {
 	h1{
 		font-size: 22px;
@@ -566,14 +563,15 @@ footer p{
 	}
 	
 	#populaires{
-		width: 110%;
-		max-width: 398px;
-		margin-left: 5px;
+		margin: 0;
+        border-radius: 0;
+        width: 120%;
+        padding: 0;
 	}
 	
 	.hebergement{
 		flex-direction: column-reverse;
-		width: 90%;
+		width: 95%;
 	}
 	
 	.hebergements{
@@ -586,10 +584,18 @@ footer p{
 		max-width: 350px;
 	}
 	
+    .droite{
+        padding: 0;
+    }
+
 	.droite figure {
-		width: 317px;
-		margin: 18px -7px 33px;
+        width: 90%;
+		margin: 10px;
 	}
+
+    .droite a{
+        padding-left: 10px;
+    }
 	
 	.hebergements figure img{
 		width: 100%;
