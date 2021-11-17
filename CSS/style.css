@@ -390,6 +390,7 @@ h3, p{
     justify-content: space-between;
     flex-wrap: wrap;
     margin-bottom: 50px;
+    margin-left: 10px;
 }
 
 #activites article{
@@ -479,7 +480,7 @@ footer p{
     margin-bottom: 10px;
 }
 
-@media screen and (max-width: 767px)
+@media screen and (max-width: 1024px)
 {
 	h1{
 		font-size: 22px;
@@ -494,17 +495,19 @@ footer p{
 	
 	header nav{
 		border-bottom: solid gray 1px;
-		width: 113%;
+		width: 128%;
 	}
 	
 	header figure{
 		width: auto;
 		align-self: center;
+        margin-left: 20%;
 	}
 	
 	header ul{
 		margin-bottom: 15px;
 		justify-content: space-evenly;
+        margin-left: 10%;
 	}
 	
 	li:hover{
@@ -517,7 +520,7 @@ footer p{
 	}
 	
 	.marge{
-		margin-left: 10px;
+		margin-left: 0;
 	}
 	
 	strong{
@@ -526,6 +529,7 @@ footer p{
 	
 	.filtres{
 		display: block;
+        padding-left: 10px;
 	}
 	
 	.arrondi{
@@ -568,6 +572,10 @@ footer p{
         width: 120%;
         padding: 0;
 	}
+
+    .afficher{
+        display: none;
+    }
 	
 	.hebergement{
 		flex-direction: column-reverse;
@@ -576,13 +584,17 @@ footer p{
 	
 	.hebergements{
 		width: auto;
-		max-width: 340px;
+        display: contents;
 	}
-	
-	.hebergements figure{
-		width: 88%;
-		max-width: 350px;
-	}
+
+    .hebergements figure{
+        width: 90%;
+        margin: 10px;
+    }
+
+    .hebergements figure img{
+        width: 100%;
+    }
 	
     .droite{
         padding: 0;
@@ -597,22 +609,15 @@ footer p{
         padding-left: 10px;
     }
 	
-	.hebergements figure img{
-		width: 100%;
-		max-width: 350px;
-	}
-	
 	.hebergements figure figcaption{
-		width: 100%;
-		max-width: 285px;
         position: sticky;
+        width: auto;
 	}
 	
 	#hebergements_marseille{
 		background: white;
 		width: 100%;
 		height: auto;
-		max-width: 370px;
 		margin-left: 10px;
 	}
 	
@@ -629,12 +634,19 @@ footer p{
 	}
 	
 	.grandeimage{
-		max-width: 350px;
-		height: 13%;
+		height: 75%;
 	}
+
+    #activites{
+        width: 104%;
+    }
+
+    #activites a{
+        width: 95%;
+    }
 	
 	.deuximages img{
-		width: 295px;
+		width: 100%;
 	}
 		
 	
@@ -648,7 +660,6 @@ footer p{
 	
 	.image1, .image2{
 		width: 100%;
-		max-width: 350px;
 	}
 	
 	.image2 img{
@@ -656,10 +667,7 @@ footer p{
 	}
 	
 	footer{
-		display: contents;
+		display: inline-block;
+        width: 114%;
 	}
-}
-@media screen and (max-width: 991px) and (min-width: 768px)
-{
-	
 }
