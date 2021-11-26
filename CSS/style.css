@@ -266,7 +266,6 @@ h2{
 }
 
 .hebergements figure img{
-    justify-content: space-around;
     border-radius: 20px 20px 0px 0px;
     width: 170px;
     height: 130px;
@@ -480,7 +479,7 @@ footer p{
     margin-bottom: 10px;
 }
 
-@media screen and (max-width: 1024px)
+@media screen and (max-width: 767px)
 {
 	h1{
 		font-size: 22px;
@@ -571,6 +570,7 @@ footer p{
         border-radius: 0;
         width: 120%;
         padding: 0;
+        padding-bottom: 15px;
 	}
 
     .afficher{
@@ -582,7 +582,24 @@ footer p{
 		width: 95%;
 	}
 	
-	.hebergements{
+    .droite{
+        padding: 0;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+	.droite figure {
+        width: 90%;
+		margin: 10px;
+	}
+
+    .droite a{
+        padding-left: 10px;
+        max-width: 360px;
+    }
+
+    .hebergements{
 		width: auto;
         display: contents;
 	}
@@ -594,19 +611,6 @@ footer p{
 
     .hebergements figure img{
         width: 100%;
-    }
-	
-    .droite{
-        padding: 0;
-    }
-
-	.droite figure {
-        width: 90%;
-		margin: 10px;
-	}
-
-    .droite a{
-        padding-left: 10px;
     }
 	
 	.hebergements figure figcaption{
@@ -624,7 +628,157 @@ footer p{
 	#hebergements_marseille h2{
 		margin-left: -10px;
 	}
+
+    #activites article{
+        margin-left: 30px;
+    }
+    
+    #activites h2{
+        margin-left: 40px;
+    }
+    
+    .grandeimage{
+        height: 75%;
+    }
+    
+    #activites{
+        width: 104%;
+    }
+    
+    #activites a{
+        width: 95%;
+    }
+    
+    .deuximages img{
+        width: 100%;
+    }
+        
+    
+    .grandeimage img{
+        width: 100%;
+    }
+    
+    .grandeimage figure{
+        height: 13%;
+    }
+    
+    .image1, .image2{
+        width: 100%;
+    }
+    
+    .image2 img{
+        width: 100%;
+    }
 	
+	footer{
+		display: inline-block;
+        width: 114%;
+	}
+}
+
+@media screen and (max-width: 1024px) and (min-width: 768px)
+{
+    .hebergement{
+        flex-direction: column-reverse;
+    }
+
+    #populaires{
+        margin: 0;
+        border-radius: 0;
+        width: 100%;
+        padding: 0;
+        padding-bottom: 15px;
+    }
+
+    .droite{
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .droite a{
+        padding-left: 30px;
+    }
+
+    .hebergements{
+        padding: 10px;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .hebergements figure{
+        width: 82%;
+        margin: 10px;
+    }
+
+    .hebergements a{
+        padding-left: 25px;
+        max-width: 360px;
+    }
+	
+	.hebergements figure figcaption{
+        position: sticky;
+	}
+	
+	#hebergements_marseille{
+		background: white;
+		height: auto;
+		margin-left: 10px;
+	}
+	
+	#hebergements_marseille h2{
+		margin-left: -10px;
+	}
+
+    #activites article{
+		margin-left: 30px;
+	}
+	
+	#activites h2{
+		margin-left: 40px;
+	}
+	
+	.grandeimage{
+		width: 80%;
+	}
+
+    #activites{
+        width: 95%;
+        padding: 10px;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    #activites a{
+        width: 50%;
+        max-width: 380px;
+    }
+	
+	.deuximages img{
+		width: 100%;
+	}
+		
+	
+	.grandeimage img{
+		width: 100%;
+	}
+	
+	.grandeimage figure{
+		height: 13%;
+	}
+	
+	.image1, .image2{
+		width: 90%;
+	}
+	
+	.image2 img{
+		width: 100%;
+	}
+}
+
+/******** ACTIVITES FORMAT TABLETTE ********/
+/*	
 	#activites article{
 		margin-left: 30px;
 	}
@@ -634,15 +788,20 @@ footer p{
 	}
 	
 	.grandeimage{
-		height: 75%;
+		width: 80%;
 	}
 
     #activites{
         width: 104%;
+        padding: 10px;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
     }
 
     #activites a{
-        width: 95%;
+        width: 92%;
+        max-width: 375px;
     }
 	
 	.deuximages img{
@@ -664,10 +823,39 @@ footer p{
 	
 	.image2 img{
 		width: 100%;
+	}*/
+
+    /* TABLETTE HEBERGEMENTS */
+
+    /*
+    .hebergements{
+        padding: 40px;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .hebergements figure{
+        width: 82%;
+        margin: 10px;
+    }
+
+    .hebergements a{
+        padding-left: 25px;
+        max-width: 360px;
+    }
+	
+	.hebergements figure figcaption{
+        position: sticky;
 	}
 	
-	footer{
-		display: inline-block;
-        width: 114%;
+	#hebergements_marseille{
+		background: white;
+		height: auto;
+		margin-left: 10px;
 	}
-}
+	
+	#hebergements_marseille h2{
+		margin-left: -10px;
+	}
+    */
